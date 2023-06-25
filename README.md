@@ -1,4 +1,4 @@
-# Animal voting website
+# Flataculties
 
 This is a website for voting for animal.
 It contains their names and gifs.
@@ -29,6 +29,7 @@ It contains their names and gifs.
 ```bash
 $ json-server --watch db.json
 ```
+* Open http://localhost:3000/characters in your browser to ensure that its working.
 * Open the index.html file in the web browser.You will see a list of animal names.Click on any of the animal name and the details of the animal will be displayed.
 
 
