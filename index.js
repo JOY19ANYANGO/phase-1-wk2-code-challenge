@@ -1,13 +1,23 @@
 function renderAnimalDetails(details) {
     const animalDetails = document.getElementById("animal-details");
     animalDetails.innerHTML = `
-       <p>${details.id}</p>
-        <p>${details.name}</p>
+       <p> id :${details.id}</p>
+        <p>name:${details.name}</p>
         <img src="${details.image}" alt="Image of ${details.name}">
-        <p>Votes: ${details.votes}</p>`;
-      
+       <p id ="count">Votes:${details.votes}</P>
+       <button id ="votesButton">Add Votes </button>
+        `;
+        
+        const votesButton=document.getElementById("votesButton")
+     
+        votesButton.addEventListener('click',function(){
+          details.votes++
+           const votesCount=document.getElementById("count")
+           votesCount.textContent=`Votes:${details.votes}`
+        })
+     
   }
-  
+   
   function getAnimalDetails(id) {
     fetch(`http://localhost:3000/characters/${id}`)
       .then(function(response) {
