@@ -1,9 +1,21 @@
 body{
     background-image: url(bc.jpg);
 }
-h2{
+li{
     color: blueviolet;
+    font-size: xx-large;
 }
 h1{
     color: deeppink;
+}
+ #votesButton{
+    background-color: green;
+    font-size: larger;
+}
+#resetButton{
+    background-color:red;
+    font-size: larger;
+}
+#animal-details{
+    font-size: larger;
 }

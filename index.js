@@ -3,9 +3,10 @@ function renderAnimalDetails(details) {
     animalDetails.innerHTML = `
        <p> id :${details.id}</p>
         <p>name:${details.name}</p>
-        <img src="${details.image}" alt="Image of ${details.name}">
+        <img src="${details.image}" >
        <p id ="count">Votes:${details.votes}</P>
        <button id ="votesButton">Add Votes </button>
+       <button  id="resetButton">Reset</button>
         `;
         
         const votesButton=document.getElementById("votesButton")
@@ -14,6 +15,12 @@ function renderAnimalDetails(details) {
           details.votes++
            const votesCount=document.getElementById("count")
            votesCount.textContent=`Votes:${details.votes}`
+        })
+        const resetButton=document.getElementById("resetButton")
+        resetButton.addEventListener('click',function(){
+          details.votes=0
+          const votesCount=document.getElementById("count")
+          votesCount.textContent=`Votes:${details.votes}`
         })
      
   }
