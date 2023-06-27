@@ -10,11 +10,13 @@ h1{
 }
  #votesButton{
     background-color: green;
-    font-size: larger;
+    font-size: large;
+    color:white;
 }
 #resetButton{
     background-color:red;
-    font-size: larger;
+    font-size: large;
+    color: azure;
 }
 #animal-details{
     font-size: larger;

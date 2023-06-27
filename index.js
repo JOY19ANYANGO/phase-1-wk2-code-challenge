@@ -5,9 +5,9 @@ function renderAnimalDetails(details) {
         <p>name:${details.name}</p>
         <img src="${details.image}" >
        <p id ="count">Votes:${details.votes}</P>
-       <button id ="votesButton">Add Votes </button>
-       <button  id="resetButton">Reset</button>
-        `;
+       <button id ="votesButton">Add Votes </button><br><br>
+       <button  id="resetButton">Reset</button><br><br>
+        `
         
         const votesButton=document.getElementById("votesButton")
      
