@@ -22,7 +22,18 @@ Animals can be voted for
 ```bash
 ~$ git clone https://github.com/JOY19ANYANGO/phase-1-wk2-code-challenge.git
 ```
-* Navigate into this folder and open it in your VS code.
+* Navigate into this folder.
+```bash
+$ cd phase-1-wk2-code-challenge
+```
+* open it in your VS code.
+```bash
+$ code .
+```
+* Install  JSON.server using the followng.
+```bash
+$ npm install -g  json-server
+```
 
 ## Usage
 
