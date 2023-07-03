@@ -47,5 +47,5 @@ $ json-server --watch db.json
 
 ## Lincense
 
-[MIT]
-(https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/)
+
